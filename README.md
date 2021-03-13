@@ -19,3 +19,11 @@ $ gcloud run deploy --image gcr.io/[project_name]/cloudrun-api --platform manage
 ```
 curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" https://[assigne_domain]/test
 ```
+
+## firebase API
+
+### How to deploy
+
+```
+firebase deploy --only functions
+```
